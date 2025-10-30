@@ -1,4 +1,4 @@
-const read = require('readline-sync');
+const read = require('readline-sync')
 
 let nota1 = read.questionFloat("Digite a nota 1: ", {limitMessage: 'Digite um numero float'})
 let nota2 = read.questionFloat("Digite a nota 2: ", {limitMessage: 'Digite um numero float'})
