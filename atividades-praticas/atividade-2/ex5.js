@@ -1,7 +1,7 @@
 import readline from "readline-sync"
 
-const codigo = readline.questionInt("Codigo do Produto: ")
-const quantidade = readline.questionInt("Quantidade: ")
+const codigo = readline.questionInt("Digite o codigo do produto (1 a 6): ")
+const quantidade = readline.questionInt("Digite a quantidade: ")
 
 let nomeProduto, precoUnitario
 
@@ -31,11 +31,11 @@ switch (codigo) {
         precoUnitario = 13.00
         break
     default:
-        console.log("Opção inválida! O código do produto deve ser entre 1 e 6.")
+        console.log("Opção inválida!")
         precoUnitario = 0
 }
 
-if (precoUnitario > 0) {
-    const valorTotal = quantidade * precoUnitario;
+if (precoUnitario !== 0) {
+    const valorTotal = quantidade * precoUnitario
     console.log(`Produto: ${nomeProduto}\nValor total: R$ ${valorTotal.toFixed(2)}`)
 }
