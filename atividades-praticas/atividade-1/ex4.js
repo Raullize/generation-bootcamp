@@ -1,5 +1,7 @@
 import readline from "readline-sync"
 
+console.log("Fórmula: (num1 * num2) - (num3 * num4)")
+
 let num1 = readline.questionFloat("Digite o numero 1: ", {limitMessage: 'Digite um numero float'})
 let num2 = readline.questionFloat("Digite o numero 2: ", {limitMessage: 'Digite um numero float'})
 let num3 = readline.questionFloat("Digite o numero 3: ", {limitMessage: 'Digite um numero float'})
