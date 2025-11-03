@@ -7,4 +7,4 @@ let num4 = readline.questionFloat("Digite o numero 4: ", {limitMessage: 'Digite 
 
 let calculo = (num1 * num2) - (num3 * num4)
 
-console.log(`Diferenca: ${calculo.toFixed(1)}`)
+console.log(`\nDiferenca: ${calculo.toFixed(1)}`)

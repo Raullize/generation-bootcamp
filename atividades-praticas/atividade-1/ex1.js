@@ -5,4 +5,4 @@ let abono = readline.questionFloat("Digite o abono: ", {limitMessage: 'Digite um
 
 let novoSalario = salario + abono
 
-console.log(`Novo Salario: ${novoSalario.toFixed}`)
+console.log(`\nNovo Salario: ${novoSalario.toFixed}`)

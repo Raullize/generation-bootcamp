@@ -16,4 +16,4 @@ if (idade < 18 || idade > 69) {
     }
 }
 
-console.log(`${nome} ${statusDoador} para doar sangue!`)
+console.log(`\n${nome} ${statusDoador} para doar sangue!`)

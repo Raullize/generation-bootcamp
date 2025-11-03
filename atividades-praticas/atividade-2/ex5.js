@@ -37,5 +37,5 @@ switch (codigo) {
 
 if (precoUnitario !== 0) {
     const valorTotal = quantidade * precoUnitario
-    console.log(`Produto: ${nomeProduto}\nValor total: R$ ${valorTotal.toFixed(2)}`)
+    console.log(`\nProduto: ${nomeProduto}\nValor total: R$ ${valorTotal.toFixed(2)}`)
 }

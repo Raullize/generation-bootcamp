@@ -37,6 +37,6 @@ switch (cargoId) {
 
 if (cargo !== null) {
     const novoSalario = salario + (reajuste * salario)
-    console.log(`Nome do colaborador: ${nomeDoColaborador}\nCargo: ${cargo}\nSalário: R$ ${novoSalario}`)
+    console.log(`\nNome do colaborador: ${nomeDoColaborador}\nCargo: ${cargo}\nSalário: R$ ${novoSalario}`)
 }
 

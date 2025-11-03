@@ -7,4 +7,4 @@ let descontos = readline.questionFloat("Digite os descontos: ", {limitMessage: '
 
 let salarioLiquido = salarioBruto + adicionalNorturno + (horasExtras * 5) - descontos
 
-console.log(`Salario Liquido: ${salarioLiquido.toFixed(2)}`)
+console.log(`\nSalario Liquido: ${salarioLiquido.toFixed(2)}`)
