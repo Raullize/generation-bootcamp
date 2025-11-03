@@ -1,6 +1,15 @@
 import readline from "readline-sync"
 
 const nomeDoColaborador = readline.question("Digite o nome do colaborador: ")
+
+console.log("\n=== CARGOS DISPONÍVEIS ===")
+console.log("1 - Gerente")
+console.log("2 - Vendedor")
+console.log("3 - Supervisor")
+console.log("4 - Motorista")
+console.log("5 - Estoquista")
+console.log("6 - Técnico de TI")
+
 const cargoId = readline.questionInt("Digite o ID do cargo (1 a 6): ")
 const salario = readline.questionInt("Digite o salario do colaborador: ")
 
