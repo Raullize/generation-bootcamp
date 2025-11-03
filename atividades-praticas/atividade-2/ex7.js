@@ -1,7 +1,7 @@
 import readline from "readline-sync"
 
 const numero1 = readline.questionFloat("Digite o 1 numero: ")
-const numero2 = readline.questionFloat("Digite o 2 nmero: ")
+const numero2 = readline.questionFloat("Digite o 2 numero: ")
 const operacao = readline.questionInt("Operacao (1 - Soma, 2 - Subtracao, 3 - Multiplicacao, 4 - Divisao): ")
 
 let resultado = 0.0
