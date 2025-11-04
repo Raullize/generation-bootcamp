@@ -1,9 +1,9 @@
 import readline from "readline-sync"
 
-let salarioBruto = readline.questionFloat("Digite o salario bruto: ", {limitMessage: 'Digite um numero float'})
-let adicionalNorturno = readline.questionFloat("Digite o adicional noturno: ", {limitMessage: 'Digite um numero float'})
-let horasExtras = readline.questionFloat("Digite as horas extras: ", {limitMessage: 'Digite um numero float'})
-let descontos = readline.questionFloat("Digite os descontos: ", {limitMessage: 'Digite um numero float'})
+let salarioBruto = readline.questionFloat(`Digite o salario bruto: `, {limitMessage: `Digite um numero float`})
+let adicionalNorturno = readline.questionFloat(`Digite o adicional noturno: `, {limitMessage: `Digite um numero float`})
+let horasExtras = readline.questionFloat(`Digite as horas extras: `, {limitMessage: `Digite um numero float`})
+let descontos = readline.questionFloat(`Digite os descontos: `, {limitMessage: `Digite um numero float`})
 
 let salarioLiquido = salarioBruto + adicionalNorturno + (horasExtras * 5) - descontos
 

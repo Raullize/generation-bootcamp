@@ -1,6 +1,6 @@
 import readline from "readline-sync"
 
-let num = readline.questionInt("Digite um numero: ", {limitMessage: 'Digite um numero inteiro'})
+let num = readline.questionInt(`Digite um numero: `, {limitMessage: `Digite um numero inteiro`})
 
 if (num % 2 === 0 && num > 0) {
     console.log(`\nO Número ${num} é par e positivo!`)

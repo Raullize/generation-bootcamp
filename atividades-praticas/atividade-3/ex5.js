@@ -3,7 +3,7 @@ import readline from "readline-sync"
 let numero, somaTotal = 0
 
 do {
-    numero = readline.questionInt("Digite um numero: ")
+    numero = readline.questionInt(`Digite um numero: `)
 
     if (numero === 0) {
         break

@@ -3,7 +3,7 @@ import readline from "readline-sync"
 let idade = 0, pessoasMenorQue21 = 0, pessoasMaiorQue50 = 0
 
 while (idade >= 0) {
-    idade = readline.questionInt("Digite uma idade: ")
+    idade = readline.questionInt(`Digite uma idade: `)
     
     if (idade < 0) {
         break

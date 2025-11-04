@@ -4,7 +4,7 @@ const arr = [2, 5, 1, 3, 4, 9, 7, 8, 10, 6]
 
 let posicao = null
 
-let num = readline.questionInt("Digite o numero que voce deseja encontrar: ")
+let num = readline.questionInt(`Digite o numero que voce deseja encontrar: `)
 
 for (let i = 0; i < arr.length; i++) {
     if (arr[i] === num) {
