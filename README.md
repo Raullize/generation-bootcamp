@@ -34,3 +34,27 @@ node nomeDoProjeto.js
 Dicas rápidas:
 - Use `ls` (ou `dir` no Windows CMD) para listar arquivos na pasta do exercício.
 - Estes comandos funcionam no terminal bash (Git Bash, WSL) no Windows.
+
+---
+
+## Desativando o Autocomplete no VS Code
+
+Para evitar que as sugestões automáticas de assistentes de código (como o GitHub Copilot) atrapalhem, você pode desativá-las para tipos de arquivo específicos no VS Code.
+
+Adicione o seguinte trecho ao seu arquivo `settings.json` para desabilitar as sugestões inline apenas para arquivos JavaScript:
+
+```jsonc
+// Desabilitar sugestões inline para JavaScript
+"[javascript]": {
+    "editor.inlineSuggest.enabled": false
+}
+```
+
+Isso impede que o assistente mostre sugestões automáticas enquanto você digita código JavaScript. Se você também trabalha com TypeScript, pode adicionar uma configuração semelhante para arquivos `.ts`:
+
+```jsonc
+// Desabilitar sugestões inline para TypeScript
+"[typescript]": {
+    "editor.inlineSuggest.enabled": false
+}
+```
